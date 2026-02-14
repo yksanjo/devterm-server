@@ -1,0 +1,31 @@
+[project]
+name = "devterm-server"
+version = "1.0.0"
+description = "DevTerm Server - Server edition with worker queues and background processing"
+authors = [{name = "DevTerm Team"}]
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi>=0.104.0",
+    "uvicorn>=0.24.0",
+    "celery>=5.3.0",
+    "redis>=5.0.0",
+    "pyyaml>=6.0",
+    "toml>=0.10.2",
+    "xmltodict>=0.13.0",
+    "requests>=2.31.0",
+    "cryptography>=41.0.0",
+    "qrcode>=7.4.2",
+    "markdown>=3.5.0",
+    "pydantic>=2.0.0",
+]
+
+[project.scripts]
+devterm-server = "devterm_server.main:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["devterm_server*"]
