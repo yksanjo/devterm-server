@@ -1,5 +1,12 @@
 # devterm-server
 
+Production-grade project scaffold focused on reliability, maintainability, and fast onboarding.
+
+[![CI](https://img.shields.io/github/actions/workflow/status/yksanjo/devterm-server/ci.yml?branch=main&label=ci)](https://github.com/yksanjo/devterm-server/actions)
+![License](https://img.shields.io/github/license/yksanjo/devterm-server)
+![Last Commit](https://img.shields.io/github/last-commit/yksanjo/devterm-server)
+![Repo Size](https://img.shields.io/github/repo-size/yksanjo/devterm-server)
+
 ## Detailed Description
 
 devterm-server is maintained as an industry-grade software project with production-ready engineering practices.  
